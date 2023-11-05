@@ -24,16 +24,25 @@ div {
     padding: 0 32px;
     align-items: center;
     font-variant: small-caps;
-    font-size: 16pt;
+    font-size: 24px;
 }
 
 .logo {
     margin-right: auto;
-    font-size: 24pt;
-    font-weight: 900;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .main-page-link {
     color: #e77272;
     font-weight: 600;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtitle {
+    color: #e5e7eb;
 }
