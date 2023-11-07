@@ -8,7 +8,7 @@ body {
 
 div {
     padding: 16px;
-    
+
 }
 
 .header {
@@ -38,11 +38,30 @@ div {
     font-weight: 600;
 }
 
+.hero-container {
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: 900;
 }
 
 .hero-subtitle {
+    text-align: justify;
     color: #e5e7eb;
+}
+
+.hero-image img {
+    width: 500px;
+    border-radius: 64px;
 }
