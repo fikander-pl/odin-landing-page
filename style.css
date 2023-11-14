@@ -55,6 +55,16 @@ div {
     flex-shrink: 1;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: double;
+    font-weight: bolder;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -92,9 +102,76 @@ h1 {
     margin: auto;
 }
 
-.single-member-photo {
-    height: 100px;
-    width: 100px;
+.single-member-photo img {
+    height: 180px;
+    padding: 0;
+    margin: 0;
     border-radius: 16px;
-    border: 1px solid blue;
+}
+
+.bullshit-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 64px 0;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    padding-left: 300px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.pr-nonsense {
+    padding: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter-box {
+    background: #3882f6;
+    border-radius: 8px;
+    flex-basis: 800px;
+    display: flex;
+}
+
+.newsletter-box button {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 4px 32px;
+    font-weight: 800;  
+    margin: auto 32px auto auto;
+}
+
+.newsletter-text {
+    color: #f9faf8;
+}
+
+.newsletter-text h6 {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.newsletter-text p {
+    font-size: smaller;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex: 1;
+    text-align: center;
 }
